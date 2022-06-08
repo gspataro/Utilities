@@ -1,0 +1,22 @@
+{
+    "name": "gspataro/utilities",
+    "description": "PHP general purpose utilities",
+    "keywords": ["utilities"],
+    "version": "0.1.0",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSpataro\\Utilities\\": "src/Utilities/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GSpataro\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
